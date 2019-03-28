@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <com.faz.widgets.segmentedprogressbarlibrary.SegmentedProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        app:maxValue="10"
+        app:delimiterSize="2dp"
+        app:activeColor="#00aec5"
+        app:inactiveColor="#eaeaea"
+        app:delimiterColor="#ffffff" />
+
+</LinearLayout>
